@@ -1,0 +1,66 @@
+.chatPFP {
+  width: 20px;
+  height: 20px;
+}
+
+.owner {
+  font-weight: bold;
+}
+
+.msgContainer {
+  background-color: lightgray;
+}
+ul {
+  list-style-type: none;
+  margin-left: 620px;
+}
+
+li {
+  display: flex;
+}
+
+.picName {
+  display: flex;
+  flex-direction: row;
+}
+
+.messageCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin: "auto";
+}
+
+.messageCard {
+  margin: 5px;
+  padding: 10px;
+  background-color: #7fc2d9;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.mainChatContainer {
+  display: flex;
+  width: 45%;
+  background-color: aliceblue;
+  padding-bottom: 50px;
+  padding-right: 0;
+  padding-left: 0;
+  height: 32rem;
+  overflow: auto;
+}
+
+.activeUser {
+  margin-right: 1rem;
+}
+
+.otherUser {
+  /* margin-right: 20rem; */
+  margin-left: 1rem;
+}
+
+.send {
+  height: 2rem;
+}
